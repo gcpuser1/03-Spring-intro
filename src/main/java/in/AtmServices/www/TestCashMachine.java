@@ -8,4 +8,8 @@ public class TestCashMachine {
 		CashMachine csm= (CashMachine) ctx.getBean("csm");
 		csm.WithdrawAmount();
 	}
+//	HS-002
+	public void temp() {
+		System.out.println("HS-002 Added");
+	}
 }
